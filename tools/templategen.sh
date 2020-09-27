@@ -20,6 +20,9 @@ cat > main.cpp <<EOF
     #include "main.h"
     #else
     #include <bits/stdc++.h>
+
+    int main();
+    void solve();
     #endif
 
     int main() {
