@@ -16,7 +16,11 @@ cat > main.h <<EOF
 EOF
 
 cat > main.cpp <<EOF
+    #ifndef ONLINE_JUDGE
     #include "main.h"
+    #else
+    #include <bits/stdc++.h>
+    #endif
 
     int main() {
 
